@@ -1,0 +1,65 @@
+site_name: MiniPaper
+site_url: https://mini.bossi.ng
+copyright: Copyright &copy; 2024 Max Bossing
+repo_url: https://github.com/PaperMini/Docs
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    - navigation.stickytabs
+    - search
+    - search.suggest
+    - search.share
+    - social
+    - navigation.footer
+  font:
+    code: Fira Code
+    text: Inter
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: (prefers-color-scheme)
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/qETwkZWZrf
+    - icon: fontawesome/brands/github
+      link: https://github.com/PaperMini
+
+nav:
+  - Home: index.md
+  - Tab:
+      - Home: Tab/index.md
+      - Setup: Tab/setup.md
+      - Commands: Tab/commands.md
+      - Animated Gradients: Tab/gradients.md

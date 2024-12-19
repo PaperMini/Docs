@@ -14,4 +14,4 @@ feature. The phase is essentially automatically incremented every tick and the g
 ```
 
 The first tag, `<gradient:color:color:phase>` creates a new gradient between the two colors. The third argument, the phase, 
-has to be set to <x>. MiniTab will then replace this with the appropriate phase to create a smooth animation.
+has to be set to `<x>`. MiniTab will then replace this with the appropriate phase to create a smooth animation.

@@ -43,4 +43,4 @@ MiniTab is configured through the `plugins/Mini/Tab/config.json` file.
 `animationSpeed` -> the higher, the faster the animation  
 
 ??? important "Animation prerequisites"
-    Animations are created by (ab)using the phase feature of MiniMessage. If you want to use them, have a look at [the gradient guide](tab/gradient.md)
+    Animations are created by (ab)using the phase feature of MiniMessage. If you want to use them, have a look at [the gradient guide](tab/gradients.md)
